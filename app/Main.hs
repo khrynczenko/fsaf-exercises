@@ -1,6 +1,9 @@
 module Main where
 
-import Lib
+import Practice
 
 main :: IO ()
-main = someFunc
+main = do
+    word1 <- getLine
+    word2 <- getLine
+    print (checkAnagram word1 word2)
