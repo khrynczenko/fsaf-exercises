@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 62022b642965d76d17fe5d111a9ab950a2427de3f9847b02e14b56319fd79aab
+-- hash: 65ddbe581b47aed015356442f7618949ed673dafdd37cd59ece65892de36a607
 
 name:           fsaf-exercises
 version:        0.1.0.0
@@ -28,7 +28,6 @@ source-repository head
 library
   exposed-modules:
       Lib
-      Practice
   other-modules:
       Paths_fsaf_exercises
   hs-source-dirs:
