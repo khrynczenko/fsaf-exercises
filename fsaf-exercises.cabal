@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 65ddbe581b47aed015356442f7618949ed673dafdd37cd59ece65892de36a607
+-- hash: 14a8489edda7742f18057dca3be8b6e561cc276c9a6f7c435b6d635703b54a0e
 
 name:           fsaf-exercises
 version:        0.1.0.0
@@ -46,4 +46,6 @@ executable fsaf-exercises-exe
   build-depends:
       base >=4.7 && <5
     , fsaf-exercises
+    , text
+    , validation
   default-language: Haskell2010

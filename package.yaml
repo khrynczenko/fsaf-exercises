@@ -35,3 +35,5 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - fsaf-exercises
+    - validation
+    - text
